@@ -1,4 +1,4 @@
-title New note form submit request workflow
+title SPA main page load
 Client Browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/spa
 server-->Client Browser: HTML-code
 Client Browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
