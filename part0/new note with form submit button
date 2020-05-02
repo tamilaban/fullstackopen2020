@@ -1,0 +1,22 @@
+note over Client Browser:
+Client Browser executes the event handler
+that renders notes to display
+end noteClient Browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/notes
+server-->Client Browser: HTML-code
+Client Browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
+server-->Client Browser: main.css
+Client Browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.js
+server-->Client Browser: main.js
+
+note over Client Browser:
+Client Browser starts executing js-code
+that requests JSON data from server 
+end note
+
+Client Browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
+server-->Client Browser: [{ content: "HTML is easy", date: "2019-05-23" }, ...]
+
+note over Client Browser:
+Client Browser executes the event handler
+that renders notes to display
+end note
