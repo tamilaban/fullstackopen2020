@@ -19,10 +19,3 @@ Client Browser executes the event handler
 that renders notes to display
 end note
 
-Client Browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
-server -> Client Browser: {"message":"note created"}
-
-
-note over Client Browser:
-Client Browser  adds the new note to UI DOM tree 
-end note
